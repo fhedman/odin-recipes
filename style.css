@@ -1,6 +1,10 @@
 .text {
     font-family:"Courier New", monospace;
-    color: darkolivegreen;
+    color: white;
+}
+
+a:visited{
+    color: white;
 }
 
 .body {
@@ -10,7 +14,6 @@
 #header-one {
     font-size: 40px;
     font-weight: 1000;
-    text-indent: 20px;
 }
 
 #header-two {
@@ -29,6 +32,29 @@
 
 .list#unordered-list {
     list-style-type: "+ ";
+}
+
+li {
+    margin:0 0 15px 0;  
+}
+
+div {
+    padding: 0px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.content {
+    padding: 0px 28px 28px 28px;
+}
+
+body {
+    background-color: rgb(36, 34, 49);
 }
 
 img {
